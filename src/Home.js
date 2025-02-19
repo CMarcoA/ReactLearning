@@ -21,6 +21,7 @@ const Home = () => {
             <a href ={link}>Figma Figma boy</a>
             <br />
             <h2>Button Test</h2>
+            
             <button onClick={handleClick}>Click me</button>
             
             <button onClick={(e) => handleClickAgain('Mario', e)}>Click me</button>
